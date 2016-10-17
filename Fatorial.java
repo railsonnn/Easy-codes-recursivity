@@ -19,7 +19,7 @@ public class Fatorial {
 	  
 	    
 	    
-	//sem usar recursividade.	
+	//alternativa sem usar recursividade.	
 		int fator=numero,	aux=1,	resultado=2;
 		
 		for (int i = 2; i <= fator; i++) {
@@ -32,7 +32,7 @@ public class Fatorial {
 		}
 	}
 	
-	
+	// usando recursividade
 	public static long fatorial(int n){
 		if (n == 0) {
 			return 1;
